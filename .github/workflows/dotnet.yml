@@ -12,18 +12,28 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - uses: actions/checkout@v2
+      - uses: actions/checkout@v2
 
-    - name: Setup .NET
-      uses: actions/setup-dotnet@v1
-      with:
-        dotnet-version: 6.0.x
+      - name: Setup .NET
+        uses: actions/setup-dotnet@v1
+        with:
+          dotnet-version: 6.0.x
 
-    - name: Restore dependencies
-      run: dotnet restore
+      - name: Restore dependencies
+        run: dotnet restore
 
-    - name: Build
-      run: dotnet build -c Release --no-restore
+      - name: Build
+        run: dotnet build -c Release --no-restore
 
-    - name: Test
-      run: dotnet test -c Release --no-build --verbosity normal
+      - name: Test
+        run: dotnet test -c Release --no-build --verbosity normal
+
+      - name: Publish
+        run: dotnet publish -c Release -o ./out
+
+      - name: Deploy to Azure
+        uses: azure/webapps-deploy@v2
+        with:
+          app-name: demo-ci-cd-api
+          publish-profile: ${{ secrets.AZURE_WEBAPP }}
+          package: ./out
