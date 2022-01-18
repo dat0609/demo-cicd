@@ -20,12 +20,12 @@ jobs:
           dotnet-version: 6.0.x
 
       - name: Start SQL Server
-        run:
+        run: |
           docker run -d -e "ACCEPT_EULA=Y" -e "SA_PASSWORD=yourStrong(!)Password" -p 1433:1433 -d mcr.microsoft.com/mssql/latest
 
-      - name: Sleep for 5 seconds
-          uses: jakejarvis/wait-action@master
-          with:
+      - name: Sleep 5s
+        uses: jakejarvis/wait-action@master
+        with:
             time: '5s'
 
       - name: Restore dependencies

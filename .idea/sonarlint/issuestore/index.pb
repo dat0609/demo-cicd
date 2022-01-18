@@ -7,8 +7,6 @@ d
 4APi-CICD/obj/Debug/net6.0/APi-CICD.GlobalUsings.g.cs,9\8\98ab77d20666a6785271610520f5593952d52619
 |
 LAPi-CICD/obj/Debug/net6.0/APi-CICD.GeneratedMSBuildEditorConfig.editorconfig,c\6\c66fa6c8d1b84b12836dc1d0de4f96a6e39a617b
-H
-APi-CICD/APi-CICD.csproj,e\b\eb0f8612ba600a008a1c6f2f45c7c80bf2ec3440
 U
 %APi-CICD/appsettings.Development.json,6\7\6796f70c721c97f277a34ae39dc8044646e09f6f
 I
