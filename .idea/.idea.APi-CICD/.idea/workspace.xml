@@ -8,7 +8,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8918bf69-7a6c-4885-8628-ed76697fd5ef" name="Changes" comment="">
+    <list default="true" id="8918bf69-7a6c-4885-8628-ed76697fd5ef" name="Changes" comment="test sonar cloud">
+      <change afterPath="$PROJECT_DIR$/APi-CICD/sonar-project.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.APi-CICD/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.APi-CICD/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -42,6 +43,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File" value="TEXT" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -90,7 +92,7 @@
       <option name="presentableId" value="Default" />
       <updated>1642428828092</updated>
       <workItem from="1642428832549" duration="2506000" />
-      <workItem from="1642489841515" duration="3043000" />
+      <workItem from="1642489841515" duration="3726000" />
     </task>
     <task id="LOCAL-00001" summary="inti">
       <created>1642428882975</created>
@@ -148,7 +150,14 @@
       <option name="project" value="LOCAL" />
       <updated>1642491637040</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="test sonar cloud">
+      <created>1642493482632</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1642493482632</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -179,6 +188,7 @@
     <MESSAGE value="add sql server" />
     <MESSAGE value="fix ci" />
     <MESSAGE value="fix" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix" />
+    <MESSAGE value="test sonar cloud" />
+    <option name="LAST_COMMIT_MESSAGE" value="test sonar cloud" />
   </component>
 </project>
