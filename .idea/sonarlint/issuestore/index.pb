@@ -19,3 +19,5 @@ j
 TTestProject1/obj/Debug/net6.0/TestProject1.GeneratedMSBuildEditorConfig.editorconfig,5\0\50126484eb8075328ec214579becf8ad0b6867ab
 <
 APi-CICD.sln,7\f\7f7ce3200cd3d2b9e35294fecb3fa98fa419541b
+H
+APi-CICD/APi-CICD.csproj,e\b\eb0f8612ba600a008a1c6f2f45c7c80bf2ec3440
