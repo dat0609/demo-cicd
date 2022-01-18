@@ -8,9 +8,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8918bf69-7a6c-4885-8628-ed76697fd5ef" name="Changes" comment="trigger build">
-      <change beforePath="$PROJECT_DIR$/.github/workflows/dotnet.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/dotnet.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.github/workflows/sonar-cloud-scan.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/sonar-cloud-scan.yml" afterDir="false" />
+    <list default="true" id="8918bf69-7a6c-4885-8628-ed76697fd5ef" name="Changes" comment="d">
+      <change beforePath="$PROJECT_DIR$/.github/workflows/build.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/build.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.APi-CICD/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.APi-CICD/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -94,7 +93,7 @@
       <updated>1642428828092</updated>
       <workItem from="1642428832549" duration="2506000" />
       <workItem from="1642489841515" duration="5616000" />
-      <workItem from="1642509614085" duration="847000" />
+      <workItem from="1642509614085" duration="1501000" />
     </task>
     <task id="LOCAL-00001" summary="inti">
       <created>1642428882975</created>
@@ -208,7 +207,28 @@
       <option name="project" value="LOCAL" />
       <updated>1642509784408</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="c">
+      <created>1642510506599</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1642510506599</updated>
+    </task>
+    <task id="LOCAL-00018" summary="asd">
+      <created>1642510595402</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1642510595402</updated>
+    </task>
+    <task id="LOCAL-00019" summary="d">
+      <created>1642510621833</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1642510621833</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -245,6 +265,9 @@
     <MESSAGE value="git" />
     <MESSAGE value="sonarrrr" />
     <MESSAGE value="trigger build" />
-    <option name="LAST_COMMIT_MESSAGE" value="trigger build" />
+    <MESSAGE value="c" />
+    <MESSAGE value="asd" />
+    <MESSAGE value="d" />
+    <option name="LAST_COMMIT_MESSAGE" value="d" />
   </component>
 </project>
