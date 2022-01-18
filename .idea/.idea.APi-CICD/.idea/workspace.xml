@@ -8,11 +8,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8918bf69-7a6c-4885-8628-ed76697fd5ef" name="Changes" comment="trigger build">
-      <change beforePath="$PROJECT_DIR$/.github/workflows/dotnet.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/dotnet.yml" afterDir="false" />
+    <list default="true" id="8918bf69-7a6c-4885-8628-ed76697fd5ef" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.APi-CICD/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.APi-CICD/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/APi-CICD/APi-CICD.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/APi-CICD/APi-CICD.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/APi-CICD/obj/Debug/net6.0/APi-CICD.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/APi-CICD/obj/Debug/net6.0/APi-CICD.csproj.AssemblyReference.cache" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,7 +90,7 @@
       <option name="presentableId" value="Default" />
       <updated>1642428828092</updated>
       <workItem from="1642428832549" duration="2506000" />
-      <workItem from="1642489841515" duration="1536000" />
+      <workItem from="1642489841515" duration="3043000" />
     </task>
     <task id="LOCAL-00001" summary="inti">
       <created>1642428882975</created>
@@ -130,7 +127,28 @@
       <option name="project" value="LOCAL" />
       <updated>1642490779159</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="add sql server">
+      <created>1642491416030</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1642491416030</updated>
+    </task>
+    <task id="LOCAL-00007" summary="fix ci">
+      <created>1642491515935</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1642491515935</updated>
+    </task>
+    <task id="LOCAL-00008" summary="fix">
+      <created>1642491637040</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1642491637040</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -158,6 +176,9 @@
     <MESSAGE value="change dotnet.yml" />
     <MESSAGE value="Add CD to actions" />
     <MESSAGE value="trigger build" />
-    <option name="LAST_COMMIT_MESSAGE" value="trigger build" />
+    <MESSAGE value="add sql server" />
+    <MESSAGE value="fix ci" />
+    <MESSAGE value="fix" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix" />
   </component>
 </project>
