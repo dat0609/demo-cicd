@@ -21,3 +21,7 @@ TTestProject1/obj/Debug/net6.0/TestProject1.GeneratedMSBuildEditorConfig.editorc
 APi-CICD.sln,7\f\7f7ce3200cd3d2b9e35294fecb3fa98fa419541b
 H
 APi-CICD/APi-CICD.csproj,e\b\eb0f8612ba600a008a1c6f2f45c7c80bf2ec3440
+Q
+!APi-CICD/sonar-project.properties,0\1\0153fd58b2af21f6ba69c2ab8971b218c2c997a5
+C
+APi-CICD/Program.cs,3\9\3991ae97a40f17c5aed4b558ccb850478c59f74b
