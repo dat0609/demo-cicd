@@ -27,14 +27,6 @@ jobs:
         uses: jakejarvis/wait-action@master
         with:
             time: '5s'
-      
-      - name: Cache Primes
-      - uses: actions/cache@v2
-        with:
-          path: ~/.nuget/packages
-          key: ${{ runner.os }}-nuget-${{ hashFiles('**/packages.lock.json') }}
-          restore-keys: |
-            ${{ runner.os }}-nuget-
 
       - name: Restore dependencies
         run: dotnet restore
