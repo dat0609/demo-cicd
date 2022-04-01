@@ -1,44 +1,47 @@
-on: push
-name: Main Workflow
+name: Build
+on:
+  push:
+    branches:
+      - master
+  pull_request:
+    types: [opened, synchronize, reopened]
 jobs:
   build:
-    name: Compile and Test
-    runs-on: ubuntu-latest
+    name: Build
+    runs-on: windows-latest
     steps:
-      - name: Clone Repository
-        uses: actions/checkout@master
-      - name: Setup go
-        uses: actions/setup-go@v1
+      - name: Set up JDK 11
+        uses: actions/setup-java@v1
         with:
-          go-version: '1.13'
-      - run: make test
-      - name: Archive code coverage results
-        uses: actions/upload-artifact@v1
+          java-version: 1.11
+      - uses: actions/checkout@v2
         with:
-          name: code-coverage-report
-          path: bin
-
-  sonarCloudTrigger:
-    needs: build
-    name: SonarCloud Trigger
-    runs-on: ubuntu-latest
-    steps:
-      - name: Clone Repository
-        uses: actions/checkout@master
-      - name: Download code coverage results
-        uses: actions/download-artifact@v1
+          fetch-depth: 0  # Shallow clones should be disabled for a better relevancy of analysis
+      - name: Cache SonarCloud packages
+        uses: actions/cache@v1
         with:
-          name: code-coverage-report
-          path: bin
-      - name: Analyze with SonarCloud
-        uses: sonarsource/sonarcloud-github-action@master
+          path: ~\sonar\cache
+          key: ${{ runner.os }}-sonar
+          restore-keys: ${{ runner.os }}-sonar
+      - name: Cache SonarCloud scanner
+        id: cache-sonar-scanner
+        uses: actions/cache@v1
+        with:
+          path: .\.sonar\scanner
+          key: ${{ runner.os }}-sonar-scanner
+          restore-keys: ${{ runner.os }}-sonar-scanner
+      - name: Install SonarCloud scanner
+        if: steps.cache-sonar-scanner.outputs.cache-hit != 'true'
+        shell: powershell
+        run: |
+          New-Item -Path .\.sonar\scanner -ItemType Directory
+          dotnet tool update dotnet-sonarscanner --tool-path .\.sonar\scanner
+      - name: Build and analyze
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  # Needed to get PR information, if any
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
-
-  integrationTest:
-    needs: build
-    name: Integration Test
-    runs-on: ubuntu-latest
-    steps:
-      - run: echo Should run integration tests.
+        shell: powershell
+        run: |
+          .\.sonar\scanner\dotnet-sonarscanner begin /k:"dat0609_demo-cicd" /o:"dat0609" /d:sonar.login="${{ secrets.SONAR_TOKEN }}" /d:sonar.host.url="https://sonarcloud.io"
+          dotnet build
+          .\.sonar\scanner\dotnet-sonarscanner end /d:sonar.login="${{ secrets.SONAR_TOKEN }}"
