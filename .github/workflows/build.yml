@@ -48,7 +48,7 @@ jobs:
           dotnet tool update dotnet-sonarscanner --tool-path .\.sonar\scanner --version 4.8.0
       - name: Build
         shell: powershell
-        env:
+        env: 
           # Needed to get some information about the pull request, if any
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           # The secret referenced in the command-line by SONAR_TOKEN should be generated
