@@ -1,8 +1,6 @@
 
 W
 'APi-CICD/Properties/launchSettings.json,2\3\23a8dcc8561c047d57de77a3d82e931930021383
-b
-2APi-CICD/obj/Debug/net6.0/APi-CICD.AssemblyInfo.cs,4\6\46bada2974b19d9e63fd11cc7c5b2f0eb08ec367
 d
 4APi-CICD/obj/Debug/net6.0/APi-CICD.GlobalUsings.g.cs,9\8\98ab77d20666a6785271610520f5593952d52619
 |
@@ -19,9 +17,3 @@ j
 TTestProject1/obj/Debug/net6.0/TestProject1.GeneratedMSBuildEditorConfig.editorconfig,5\0\50126484eb8075328ec214579becf8ad0b6867ab
 <
 APi-CICD.sln,7\f\7f7ce3200cd3d2b9e35294fecb3fa98fa419541b
-H
-APi-CICD/APi-CICD.csproj,e\b\eb0f8612ba600a008a1c6f2f45c7c80bf2ec3440
-Q
-!APi-CICD/sonar-project.properties,0\1\0153fd58b2af21f6ba69c2ab8971b218c2c997a5
-C
-APi-CICD/Program.cs,3\9\3991ae97a40f17c5aed4b558ccb850478c59f74b

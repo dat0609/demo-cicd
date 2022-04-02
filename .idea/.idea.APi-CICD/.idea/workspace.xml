@@ -9,15 +9,47 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8918bf69-7a6c-4885-8628-ed76697fd5ef" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/1/0153fd58b2af21f6ba69c2ab8971b218c2c997a5" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.APi-CICD/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.APi-CICD/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
+  </component>
   <component name="GitToolBoxStore">
     <option name="projectConfigVersion" value="4" />
+    <option name="recentBranches">
+      <RecentBranches>
+        <option name="branchesForRepo">
+          <list>
+            <RecentBranchesForRepo>
+              <option name="branches">
+                <list>
+                  <RecentBranch>
+                    <option name="branchName" value="dat-dev" />
+                    <option name="lastUsedInstant" value="1642595495" />
+                  </RecentBranch>
+                  <RecentBranch>
+                    <option name="branchName" value="main" />
+                    <option name="lastUsedInstant" value="1642595494" />
+                  </RecentBranch>
+                </list>
+              </option>
+              <option name="repositoryRootUrl" value="file://$PROJECT_DIR$" />
+            </RecentBranchesForRepo>
+          </list>
+        </option>
+      </RecentBranches>
+    </option>
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/TestProject1/obj/Debug/net6.0/.NETCoreApp,Version=v6.0.AssemblyAttributes.cs" root0="SKIP_HIGHLIGHTING" />
@@ -47,6 +79,7 @@
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -95,6 +128,10 @@
       <workItem from="1642509614085" duration="1853000" />
       <workItem from="1642511878988" duration="823000" />
       <workItem from="1642517985725" duration="1234000" />
+      <workItem from="1642595464841" duration="317000" />
+      <workItem from="1642595823909" duration="1931000" />
+      <workItem from="1642601069247" duration="305000" />
+      <workItem from="1642601424946" duration="1867000" />
     </task>
     <task id="LOCAL-00001" summary="inti">
       <created>1642428882975</created>
@@ -250,7 +287,14 @@
       <option name="project" value="LOCAL" />
       <updated>1642512064617</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="datdev">
+      <created>1642595567869</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1642595567870</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -292,6 +336,7 @@
     <MESSAGE value="c" />
     <MESSAGE value="meme" />
     <MESSAGE value="zxczxc" />
-    <option name="LAST_COMMIT_MESSAGE" value="zxczxc" />
+    <MESSAGE value="datdev" />
+    <option name="LAST_COMMIT_MESSAGE" value="datdev" />
   </component>
 </project>

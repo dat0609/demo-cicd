@@ -7,8 +7,4 @@
         <RootNamespace>APi_CICD</RootNamespace>
     </PropertyGroup>
 
-    <ItemGroup>
-      <Folder Include="Controller" />
-    </ItemGroup>
-
 </Project>
