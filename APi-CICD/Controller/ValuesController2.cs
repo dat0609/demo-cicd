@@ -13,11 +13,6 @@ namespace APi_CICD.Controller
             //return random number
             return new int[] { 1, 2, 3, 4, 5 };
         }
-        [HttpGet("a")]
-        public ActionResult<IEnumerable<int>> Get2()
-        {
-            //return random number
-            return new int[] { 1, 2, 3, 4, 5 };
-        }
+
     }
 }

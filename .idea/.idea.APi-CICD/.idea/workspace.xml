@@ -8,7 +8,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8918bf69-7a6c-4885-8628-ed76697fd5ef" name="Changes" comment="c" />
+    <list default="true" id="8918bf69-7a6c-4885-8628-ed76697fd5ef" name="Changes" comment="ád" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -51,6 +51,7 @@
     <setting file="file://$PROJECT_DIR$/TestProject1/obj/Debug/net6.0/.NETCoreApp,Version=v6.0.AssemblyAttributes.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock://D:/C#/APi-CICD/APi-CICD/obj/Debug/net6.0/APi-CICD.AssemblyInfo.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/APi-CICD/obj/Debug/net6.0/.NETCoreApp,Version=v6.0.AssemblyAttributes.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://D:/C#/APi-CICD/APi-CICD/Controller/ValuesController2.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -129,7 +130,7 @@
       <workItem from="1642595823909" duration="1931000" />
       <workItem from="1642601069247" duration="305000" />
       <workItem from="1642601424946" duration="1867000" />
-      <workItem from="1648870947847" duration="628000" />
+      <workItem from="1648870947847" duration="1204000" />
     </task>
     <task id="LOCAL-00001" summary="inti">
       <created>1642428882975</created>
@@ -313,7 +314,21 @@
       <option name="project" value="LOCAL" />
       <updated>1648871573714</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="d">
+      <created>1648871828207</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1648871828207</updated>
+    </task>
+    <task id="LOCAL-00028" summary="ád">
+      <created>1648872155572</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1648872155572</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -350,13 +365,14 @@
     <MESSAGE value="sonarrrr" />
     <MESSAGE value="trigger build" />
     <MESSAGE value="asd" />
-    <MESSAGE value="d" />
     <MESSAGE value="meme" />
     <MESSAGE value="zxczxc" />
     <MESSAGE value="datdev" />
     <MESSAGE value="a" />
     <MESSAGE value="b" />
     <MESSAGE value="c" />
-    <option name="LAST_COMMIT_MESSAGE" value="c" />
+    <MESSAGE value="d" />
+    <MESSAGE value="ád" />
+    <option name="LAST_COMMIT_MESSAGE" value="ád" />
   </component>
 </project>
