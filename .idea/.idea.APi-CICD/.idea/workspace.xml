@@ -8,11 +8,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8918bf69-7a6c-4885-8628-ed76697fd5ef" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/1/0153fd58b2af21f6ba69c2ab8971b218c2c997a5" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.APi-CICD/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.APi-CICD/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-    </list>
+    <list default="true" id="8918bf69-7a6c-4885-8628-ed76697fd5ef" name="Changes" comment="c" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -21,12 +17,12 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="main" />
+        <entry key="$PROJECT_DIR$" value="dat-dev" />
       </map>
     </option>
   </component>
   <component name="GitToolBoxStore">
-    <option name="projectConfigVersion" value="4" />
+    <option name="projectConfigVersion" value="5" />
     <option name="recentBranches">
       <RecentBranches>
         <option name="branchesForRepo">
@@ -35,12 +31,12 @@
               <option name="branches">
                 <list>
                   <RecentBranch>
-                    <option name="branchName" value="dat-dev" />
-                    <option name="lastUsedInstant" value="1642595495" />
+                    <option name="branchName" value="main" />
+                    <option name="lastUsedInstant" value="1648870982" />
                   </RecentBranch>
                   <RecentBranch>
-                    <option name="branchName" value="main" />
-                    <option name="lastUsedInstant" value="1642595494" />
+                    <option name="branchName" value="dat-dev" />
+                    <option name="lastUsedInstant" value="1642595495" />
                   </RecentBranch>
                 </list>
               </option>
@@ -53,6 +49,7 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/TestProject1/obj/Debug/net6.0/.NETCoreApp,Version=v6.0.AssemblyAttributes.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://D:/C#/APi-CICD/APi-CICD/obj/Debug/net6.0/APi-CICD.AssemblyInfo.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/APi-CICD/obj/Debug/net6.0/.NETCoreApp,Version=v6.0.AssemblyAttributes.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -132,6 +129,7 @@
       <workItem from="1642595823909" duration="1931000" />
       <workItem from="1642601069247" duration="305000" />
       <workItem from="1642601424946" duration="1867000" />
+      <workItem from="1648870947847" duration="628000" />
     </task>
     <task id="LOCAL-00001" summary="inti">
       <created>1642428882975</created>
@@ -294,7 +292,28 @@
       <option name="project" value="LOCAL" />
       <updated>1642595567870</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="a">
+      <created>1648871009906</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1648871009906</updated>
+    </task>
+    <task id="LOCAL-00025" summary="b">
+      <created>1648871060560</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1648871060560</updated>
+    </task>
+    <task id="LOCAL-00026" summary="c">
+      <created>1648871573714</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1648871573714</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -327,16 +346,17 @@
     <MESSAGE value="test sonar cloud" />
     <MESSAGE value="add sonar cloud" />
     <MESSAGE value="change file name" />
-    <MESSAGE value="a" />
     <MESSAGE value="git" />
     <MESSAGE value="sonarrrr" />
     <MESSAGE value="trigger build" />
     <MESSAGE value="asd" />
     <MESSAGE value="d" />
-    <MESSAGE value="c" />
     <MESSAGE value="meme" />
     <MESSAGE value="zxczxc" />
     <MESSAGE value="datdev" />
-    <option name="LAST_COMMIT_MESSAGE" value="datdev" />
+    <MESSAGE value="a" />
+    <MESSAGE value="b" />
+    <MESSAGE value="c" />
+    <option name="LAST_COMMIT_MESSAGE" value="c" />
   </component>
 </project>
