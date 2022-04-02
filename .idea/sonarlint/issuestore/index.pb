@@ -15,5 +15,3 @@ j
 :TestProject1/obj/Debug/net6.0/TestProject1.AssemblyInfo.cs,2\3\23e713408c71a2e3bbeedab21e4add003229ebb9
 „
 TTestProject1/obj/Debug/net6.0/TestProject1.GeneratedMSBuildEditorConfig.editorconfig,5\0\50126484eb8075328ec214579becf8ad0b6867ab
-<
-APi-CICD.sln,7\f\7f7ce3200cd3d2b9e35294fecb3fa98fa419541b
